@@ -1,0 +1,1 @@
+csc.exe *.cs /r:"C:\Program Files\Microsoft StreamInsight 2.1\Bin\Microsoft.ComplexEventProcessing.dll","C:\Program Files (x86)\Microsoft Reactive Extensions SDK\v1.0.10621\Binaries\.NETFramework\v4.0\System.Reactive.dll","C:\Program Files (x86)\Microsoft Reactive Extensions SDK\v1.0.10621\Binaries\.NETFramework\v4.0\System.Reactive.Providers.dll"

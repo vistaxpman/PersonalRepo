@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ItemType1 Include="1.cs"/>
+    <ItemType1 Include="2.cs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ItemType2 Include="3.cs;4.cs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ItemType3 Include="*.cs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ItemType4 Include="*.cs" Exclude="5.cs"/>
+  </ItemGroup>
+  <Target Name="Build" DependsOnTargets="ItemType1Target;ItemType2Target;ItemType3Target;ItemType4Target"/>
+  <Target Name="ItemType1Target">
+    <Message Text="@(ItemType1)"/>
+  </Target>
+  <Target Name="ItemType2Target">
+    <Message Text="@(ItemType2)"/>
+  </Target>
+  <Target Name="ItemType3Target">
+    <Message Text="@(ItemType3)"/>
+  </Target>
+  <Target Name="ItemType4Target">
+    <Message Text="@(ItemType4)"/>
+  </Target>
+</Project>

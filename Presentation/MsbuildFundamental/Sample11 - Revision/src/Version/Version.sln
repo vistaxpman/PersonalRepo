@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppConsole", "CppConsole\CppConsole.vcxproj", "{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version", "Version", "{2B35A295-3516-4A52-82E3-39421CCA0A4D}"
+	ProjectSection(SolutionItems) = preProject
+		GeneralAssemblyInfo.cs = GeneralAssemblyInfo.cs
+		version.h = version.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppDynamicLibrary", "CppDynamicLibrary\CppDynamicLibrary.vcxproj", "{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAssembly", "CSharpAssembly\CSharpAssembly.csproj", "{A3BDD365-95BA-4492-9873-E0918F99E659}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Debug|Win32.Build.0 = Debug|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Release|Win32.ActiveCfg = Release|Win32
+		{7CD64EA4-ECFC-46E5-BDA2-77E1B4E460EF}.Release|Win32.Build.0 = Release|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Debug|Win32.Build.0 = Debug|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Release|Win32.ActiveCfg = Release|Win32
+		{F5E07EE4-8CE2-49DB-9994-C73E0D2518F9}.Release|Win32.Build.0 = Release|Win32
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A3BDD365-95BA-4492-9873-E0918F99E659}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

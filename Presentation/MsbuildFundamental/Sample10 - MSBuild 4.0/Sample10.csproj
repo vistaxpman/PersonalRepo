@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Property Function -->
+    <Today>$([System.DateTime]::Now.ToString('yyyy-MM-dd'))</Today>
+  </PropertyGroup>
+  <!-- Inline Task -->
+  <UsingTask
+    TaskName="HelloWorld"
+    TaskFactory="CodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >
+    <ParameterGroup />
+    <Task>
+      <Using Namespace="System.IO"/>
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+// Display "Hello, world!"
+Log.LogWarning("Hello, world!");
+]]>
+      </Code>
+    </Task>
+  </UsingTask>
+  <Target Name="Build">
+    <Message Text="Today is $(Today)"/>
+    <HelloWorld/>
+  </Target>
+</Project>

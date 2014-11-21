@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsMemoryManagement", "WindowsMemoryManagement\WindowsMemoryManagement.vcproj", "{534BE010-CE8B-490C-960C-F56CBC071532}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MallocAndNew", "MallocAndNew\MallocAndNew.vcproj", "{19EC05F6-8CC5-4EA1-AFA6-CA22F0A4EE92}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualAllocDemo", "VirtualAllocDemo\VirtualAllocDemo.vcproj", "{45555B5C-D2D1-4CD6-82CE-897071B9B4DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapFreeChecking", "HeapFreeChecking\HeapFreeChecking.vcproj", "{79E2AEA1-7C04-43DC-8309-E729D8064B8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapTailChecking", "HeapTailChecking\HeapTailChecking.vcproj", "{C9154BCB-44F8-471E-A41D-87F751C501EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{534BE010-CE8B-490C-960C-F56CBC071532}.Debug|Win32.ActiveCfg = Debug|Win32
+		{534BE010-CE8B-490C-960C-F56CBC071532}.Debug|Win32.Build.0 = Debug|Win32
+		{534BE010-CE8B-490C-960C-F56CBC071532}.Release|Win32.ActiveCfg = Release|Win32
+		{534BE010-CE8B-490C-960C-F56CBC071532}.Release|Win32.Build.0 = Release|Win32
+		{19EC05F6-8CC5-4EA1-AFA6-CA22F0A4EE92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19EC05F6-8CC5-4EA1-AFA6-CA22F0A4EE92}.Debug|Win32.Build.0 = Debug|Win32
+		{19EC05F6-8CC5-4EA1-AFA6-CA22F0A4EE92}.Release|Win32.ActiveCfg = Release|Win32
+		{19EC05F6-8CC5-4EA1-AFA6-CA22F0A4EE92}.Release|Win32.Build.0 = Release|Win32
+		{45555B5C-D2D1-4CD6-82CE-897071B9B4DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45555B5C-D2D1-4CD6-82CE-897071B9B4DB}.Debug|Win32.Build.0 = Debug|Win32
+		{45555B5C-D2D1-4CD6-82CE-897071B9B4DB}.Release|Win32.ActiveCfg = Release|Win32
+		{45555B5C-D2D1-4CD6-82CE-897071B9B4DB}.Release|Win32.Build.0 = Release|Win32
+		{79E2AEA1-7C04-43DC-8309-E729D8064B8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79E2AEA1-7C04-43DC-8309-E729D8064B8B}.Debug|Win32.Build.0 = Debug|Win32
+		{79E2AEA1-7C04-43DC-8309-E729D8064B8B}.Release|Win32.ActiveCfg = Release|Win32
+		{79E2AEA1-7C04-43DC-8309-E729D8064B8B}.Release|Win32.Build.0 = Release|Win32
+		{C9154BCB-44F8-471E-A41D-87F751C501EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9154BCB-44F8-471E-A41D-87F751C501EF}.Debug|Win32.Build.0 = Debug|Win32
+		{C9154BCB-44F8-471E-A41D-87F751C501EF}.Release|Win32.ActiveCfg = Release|Win32
+		{C9154BCB-44F8-471E-A41D-87F751C501EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿Get-Counter -Counter "\RefWiresDemo\DemoCounter" -SampleInterval 1 -MaxSamples 100

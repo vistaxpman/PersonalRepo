@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerminationHandler", "TerminationHandler\TerminationHandler.vcxproj", "{47ABFA63-0F52-4BB2-8366-5853B5B1B982}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionHandler", "ExceptionHandler\ExceptionHandler.vcxproj", "{DCBE1205-82AF-4D3B-B04E-DC48DA8320AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnhandledExceptionFilter", "UnhandledExceptionFilter\UnhandledExceptionFilter.vcxproj", "{EE8B44E7-3CDA-49FE-A2A7-B687A38993A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47ABFA63-0F52-4BB2-8366-5853B5B1B982}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47ABFA63-0F52-4BB2-8366-5853B5B1B982}.Debug|Win32.Build.0 = Debug|Win32
+		{47ABFA63-0F52-4BB2-8366-5853B5B1B982}.Release|Win32.ActiveCfg = Release|Win32
+		{47ABFA63-0F52-4BB2-8366-5853B5B1B982}.Release|Win32.Build.0 = Release|Win32
+		{DCBE1205-82AF-4D3B-B04E-DC48DA8320AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCBE1205-82AF-4D3B-B04E-DC48DA8320AD}.Debug|Win32.Build.0 = Debug|Win32
+		{DCBE1205-82AF-4D3B-B04E-DC48DA8320AD}.Release|Win32.ActiveCfg = Release|Win32
+		{DCBE1205-82AF-4D3B-B04E-DC48DA8320AD}.Release|Win32.Build.0 = Release|Win32
+		{EE8B44E7-3CDA-49FE-A2A7-B687A38993A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE8B44E7-3CDA-49FE-A2A7-B687A38993A5}.Debug|Win32.Build.0 = Debug|Win32
+		{EE8B44E7-3CDA-49FE-A2A7-B687A38993A5}.Release|Win32.ActiveCfg = Release|Win32
+		{EE8B44E7-3CDA-49FE-A2A7-B687A38993A5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

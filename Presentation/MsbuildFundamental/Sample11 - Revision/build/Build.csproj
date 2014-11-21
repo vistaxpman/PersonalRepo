@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="SampleMsbuildTask.UpdateCppVersion"
+             AssemblyFile="..\tools\SampleMsbuildTask\SampleMsbuildTask.dll"/>
+  <UsingTask TaskName="SampleMsbuildTask.UpdateCSharpVersion"
+             AssemblyFile="..\tools\SampleMsbuildTask\SampleMsbuildTask.dll"/>
+  <PropertyGroup>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </PropertyGroup>
+  <PropertyGroup Condition =" '$(SVN_REVISION)' == '' ">
+    <SVN_REVISION>0</SVN_REVISION>
+  </PropertyGroup>
+  <PropertyGroup Condition =" '$(BUILD_NUMBER)' == '' ">
+    <BUILD_NUMBER>0</BUILD_NUMBER>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Revision>$(SVN_REVISION)</Revision>
+    <BuildNumber>$(BUILD_NUMBER)</BuildNumber>
+    <Now>$([System.DateTime]::Now.ToString('yyyyMMdd HHmmss'))</Now>
+  </PropertyGroup>
+  <Target Name="Clean">
+    <MSBuild Projects="..\src\Version\Version.sln" Targets="Clean"/>
+  </Target>
+  <Target Name="Version">
+    <UpdateCppVersion VersionFile="..\src\Version\version.h" Major="$(Major)" Minor="$(Minor)" Revision="$(Revision)" BuildNumber="$(BuildNumber)"/>
+    <UpdateCSharpVersion VersionFile="..\src\Version\GeneralAssemblyInfo.cs" Major="$(Major)" Minor="$(Minor)" Revision="$(Revision)" BuildNumber="$(BuildNumber)"/>
+  </Target>
+  <Target Name="DebugBuild">
+    <MSBuild Projects="..\src\Version\Version.sln" Properties="Configuration=Debug"/>
+  </Target>
+  <Target Name="ReleaseBuild">
+    <MSBuild Projects="..\src\Version\Version.sln" Properties="Configuration=Release"/>
+  </Target>
+  <Target Name="Zip">
+    <Exec Command="7z a %22C:\Temp\VersionSample $(Major).$(Minor).$(Revision).$(BuildNumber) $(Now).zip%22 .."/>
+  </Target>
+  <Target Name="Build" DependsOnTargets="Clean; Version; DebugBuild; ReleaseBuild; Zip"/>
+</Project>

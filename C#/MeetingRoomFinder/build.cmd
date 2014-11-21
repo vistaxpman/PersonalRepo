@@ -1,0 +1,1 @@
+csc.exe  .\MeetingRoomFinder.cs "/r:C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Outlook.dll"
