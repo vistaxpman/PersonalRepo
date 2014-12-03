@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.Common", "AlgorithmicTrading.Common\AlgorithmicTrading.Common.csproj", "{8A95334A-310F-471E-9D14-6EBBA50104D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.Qai", "AlgorithmicTrading.Qai\AlgorithmicTrading.Qai.csproj", "{86FECD2F-A840-4550-A7CC-9B949CE27928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.Qai.UnitTest", "AlgorithmicTrading.Qai.UnitTest\AlgorithmicTrading.Qai.UnitTest.csproj", "{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.WeightedPortfolioStrategy", "AlgorithmicTrading.WeightedPortfolioStrategy\AlgorithmicTrading.WeightedPortfolioStrategy.csproj", "{AB549643-6C01-4137-94C2-96D48B549B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.ConsoleApplication", "AlgorithmicTrading.ConsoleApplication\AlgorithmicTrading.ConsoleApplication.csproj", "{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Framework", "0. Framework", "{021FC1DB-DA65-42DC-8D5D-845B91D3D626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Strategies", "1. Strategies", "{CA76F240-06B6-4528-8398-8D4CA89FF72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Applicaitons", "2. Applicaitons", "{0399995E-63C5-495B-A81A-C5D226292F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{65A5FD66-6C45-44C9-9388-0D20296DF349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmicTrading.Esper", "AlgorithmicTrading.Esper\AlgorithmicTrading.Esper.csproj", "{6F4718F1-D912-46BC-9207-258D6EDED746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A95334A-310F-471E-9D14-6EBBA50104D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A95334A-310F-471E-9D14-6EBBA50104D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A95334A-310F-471E-9D14-6EBBA50104D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A95334A-310F-471E-9D14-6EBBA50104D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FECD2F-A840-4550-A7CC-9B949CE27928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FECD2F-A840-4550-A7CC-9B949CE27928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FECD2F-A840-4550-A7CC-9B949CE27928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FECD2F-A840-4550-A7CC-9B949CE27928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB549643-6C01-4137-94C2-96D48B549B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB549643-6C01-4137-94C2-96D48B549B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB549643-6C01-4137-94C2-96D48B549B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB549643-6C01-4137-94C2-96D48B549B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4718F1-D912-46BC-9207-258D6EDED746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4718F1-D912-46BC-9207-258D6EDED746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4718F1-D912-46BC-9207-258D6EDED746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4718F1-D912-46BC-9207-258D6EDED746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A95334A-310F-471E-9D14-6EBBA50104D0} = {021FC1DB-DA65-42DC-8D5D-845B91D3D626}
+		{86FECD2F-A840-4550-A7CC-9B949CE27928} = {021FC1DB-DA65-42DC-8D5D-845B91D3D626}
+		{8ABF94B6-BA46-48BA-848C-FDD6D14CEB1D} = {65A5FD66-6C45-44C9-9388-0D20296DF349}
+		{AB549643-6C01-4137-94C2-96D48B549B66} = {CA76F240-06B6-4528-8398-8D4CA89FF72A}
+		{7F11CB40-DF3C-4D7B-9CCF-60275E4D1A4B} = {0399995E-63C5-495B-A81A-C5D226292F01}
+		{6F4718F1-D912-46BC-9207-258D6EDED746} = {021FC1DB-DA65-42DC-8D5D-845B91D3D626}
+	EndGlobalSection
+EndGlobal

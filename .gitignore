@@ -1,0 +1,9 @@
+obj
+bin
+packages
+*.suo
+*.user
+*.psess
+*.vsp
+*.nupkg
+*.orig
