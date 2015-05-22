@@ -39,7 +39,7 @@ void permute_recursively(vector<int> &v, vector<int>::size_type begin, vector<in
     }
 }
 
-int nextPermutation(vector<int> &target)
+int next_permutation(vector<int> &target)
 {
     auto size = target.size();
     decltype(size) i, j;
@@ -65,7 +65,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
     cout << endl;
     v = { 0, 1, 2, 3 };
-    while (nextPermutation(v))
+    while (next_permutation(v))
     {
         print(v);
     }
