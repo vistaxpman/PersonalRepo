@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldServer", "HelloWorldServer\HelloWorldServer.vcxproj", "{45F23E7A-97FE-453F-8DD4-5738AD6BF9EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldClient", "HelloWorldClient\HelloWorldClient.vcxproj", "{6B941126-1839-4D25-8C03-BEAF1F968120}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherServer", "WeatherServer\WeatherServer.vcxproj", "{B3C3000D-B82B-4C95-BBF8-43EE12253A7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherClient", "WeatherClient\WeatherClient.vcxproj", "{4A147485-0725-4A8F-86F8-8FA796FE2DD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskGenerator", "TaskGenerator\TaskGenerator.vcxproj", "{254280A6-2499-48BA-9FE2-C1CE22945C4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskWorker", "TaskWorker\TaskWorker.vcxproj", "{3A5C6CC5-27D1-43FA-96E6-C439B1D93A42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskSink", "TaskSink\TaskSink.vcxproj", "{B408FFEF-1929-47D7-AB83-5B59F9256C15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F23E7A-97FE-453F-8DD4-5738AD6BF9EF}.Debug|x64.ActiveCfg = Debug|x64
+		{45F23E7A-97FE-453F-8DD4-5738AD6BF9EF}.Debug|x64.Build.0 = Debug|x64
+		{6B941126-1839-4D25-8C03-BEAF1F968120}.Debug|x64.ActiveCfg = Debug|x64
+		{6B941126-1839-4D25-8C03-BEAF1F968120}.Debug|x64.Build.0 = Debug|x64
+		{B3C3000D-B82B-4C95-BBF8-43EE12253A7A}.Debug|x64.ActiveCfg = Debug|x64
+		{B3C3000D-B82B-4C95-BBF8-43EE12253A7A}.Debug|x64.Build.0 = Debug|x64
+		{4A147485-0725-4A8F-86F8-8FA796FE2DD6}.Debug|x64.ActiveCfg = Debug|x64
+		{4A147485-0725-4A8F-86F8-8FA796FE2DD6}.Debug|x64.Build.0 = Debug|x64
+		{254280A6-2499-48BA-9FE2-C1CE22945C4E}.Debug|x64.ActiveCfg = Debug|x64
+		{254280A6-2499-48BA-9FE2-C1CE22945C4E}.Debug|x64.Build.0 = Debug|x64
+		{3A5C6CC5-27D1-43FA-96E6-C439B1D93A42}.Debug|x64.ActiveCfg = Debug|x64
+		{3A5C6CC5-27D1-43FA-96E6-C439B1D93A42}.Debug|x64.Build.0 = Debug|x64
+		{B408FFEF-1929-47D7-AB83-5B59F9256C15}.Debug|x64.ActiveCfg = Debug|x64
+		{B408FFEF-1929-47D7-AB83-5B59F9256C15}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

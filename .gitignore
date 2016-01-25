@@ -1,9 +1,13 @@
 obj
 bin
 packages
+Debug
+ipch
 *.suo
 *.user
 *.psess
 *.vsp
 *.nupkg
 *.orig
+*.sdf
+*.vcxproj.filters
